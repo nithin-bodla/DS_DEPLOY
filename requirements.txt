@@ -1,0 +1,12 @@
+pandas 
+numpy
+seaborn
+# matplotlib.pyplot
+scikit-learn
+flask
+streamlit
+python-dotenv
+Pillow
+
+# google.generativeai
+google-generativeai
