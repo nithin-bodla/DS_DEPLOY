@@ -162,7 +162,7 @@ if analyze:
 
         # GEMINI IMAGE ANALYSIS
         with col_img:
-            st.subheader("Image analysis (Gemini)")
+            st.subheader("Image analysis")
             if uploaded_file is None:
                 st.info("No image provided. Upload an image to run Gemini-based analysis.")
             else:
@@ -177,7 +177,7 @@ if analyze:
 
         # TEXT LOOKUP (CalorieNinjas)
         with col_text:
-            st.subheader("Quick text lookup (CalorieNinjas)")
+            st.subheader("Quick text lookup")
             if not unified_input or not unified_input.strip():
                 if not CALORIE_NINJAS_KEY:
                     st.info("CalorieNinjas key not set. Add CALORIE_NINJAS_KEY to secrets or .env to enable text lookup.")
